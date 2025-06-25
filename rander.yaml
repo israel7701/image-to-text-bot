@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: image-to-text-bot
+    env: python
+    buildCommand: |
+      apt-get update && \
+      apt-get install -y gcc libglib2.0-0 libsm6 libxrender1 libxext6 && \
+      pip install -r requirements.txt
+    startCommand: python bot.py
