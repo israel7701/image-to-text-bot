@@ -8,7 +8,7 @@ import aiohttp
 import io
 import os
 
-API_TOKEN = os.getenv("BOT_TOKEN")
+API_TOKEN = "7794084023:AAGd8Zw1cZp1KGHeS8JoiQeDP47k2kirrVs"
 
 logging.basicConfig(level=logging.INFO)
 
